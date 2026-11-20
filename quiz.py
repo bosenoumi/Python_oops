@@ -35,7 +35,6 @@ elif q1_choice == "d":
 
 # Find the category with the highest points
 winning_category = max(score, key=score.get)
-
 print(
     f"\nBased on your quiz score, your top matching path is: {winning_category}"
 )
